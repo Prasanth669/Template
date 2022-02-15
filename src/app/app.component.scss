@@ -1,0 +1,158 @@
+.parallel {
+    background-image: url("../assets/images/windows-10-minimalism-background-4k-u3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 56rem;
+}
+
+mat-toolbar {
+    height: 100px;
+    border : 2px solid transparent ;
+    padding-top: 10px;
+    //background-color: yellow;
+    background: 0 0;
+    //background: transparent !important;
+    z-index: 1030;
+}
+
+.master {
+    display: flex;
+}
+
+.master a {
+    margin-left: 10rem;
+    box-sizing: border-box;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.6rem 1rem;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding-top: 13%;
+    
+}
+
+.main h1{
+    font-size: 4.5rem;
+    font-weight: lighter;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.main h3 {
+    font-size: 2.3rem;
+    font-weight: 100px;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.main .watch {
+    width: 12rem;
+    height: 3.6rem;
+    border-radius: 50px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: #66615b;
+    font-weight: bold;
+    border-color: white;
+    line-height: 1.75;
+}
+
+.main .download {
+    width: 10rem;
+    height: 3.6rem;
+    border-radius: 50px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: 3px solid white;
+    line-height: 1.75;
+}
+
+.part-2 {
+    .lets-talk {
+        margin-top: 9rem;
+        font-size: 48px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .col-md-6 {
+        margin-top: 2%;
+        margin-left: 25%;
+        font-size: 26px;
+        line-height: 1.4;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #6F6A65;
+    }
+
+    button {
+        margin-left: 45%;
+        margin-top: 1%;
+        height: 50px;
+        width: 150px;
+        border-radius: 50px;
+        font-size: medium;
+        text-transform: uppercase;
+    }
+}
+
+.B4block {
+    margin-top: 4%;
+
+    .box {
+        padding: 30px 0;
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .icon {
+        font-size: 4rem;
+        //text-align: center;
+        padding-right: 60px;
+    }
+
+    h2 {
+        margin-top: 6%;
+        font-size: 26px;
+        color: #4C4C4C;
+        text-align: center;
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 1.2;
+        color: #9C9C9C;
+    }
+
+    a {
+        margin-top: 2%;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #f5593d;
+    }
+}
+
+.block {
+    margin-top: 5%;
+    padding: 70px 0;
+    position: relative;
+    background-color: #151f20;
+}
+
